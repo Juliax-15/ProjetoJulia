@@ -1,3 +1,7 @@
 .sessao{
 	padding-bottom: 4vh;
 }
+
+.gradiente{
+	background-image: linear-gradient (to right, white)
+}
