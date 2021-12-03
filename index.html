@@ -1,115 +1,199 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Curriculum</title>
-  </head>
-  <body class="gradiente">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/Logo.png" alt="" width="60" height="50">
-        </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav  mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Introdução</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Mim</a>
-              </li>
-               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
-              </li>
-             
-            </ul>
-          
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" size="32x32"href="img/favicon.jpg">
+
+  <title>Curriculum</title>
+</head>
+
+<body class="gradiente">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/Logo.png" alt="" width="60" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Introdução</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Sobre Mim">Sobre Mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trabalhos">Trabalhos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contato">Contato</a>
+          </li>>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/imagem1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Sou estudante de informática</h5>
+          <p>Meu nome é Julia Garcia Mota tenho 16 anos e sou aluna da Etec MCM.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/Imagem2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Habilidades</h5>
+          <p>Estou cursando Inglês e atualmente falo inglês básico, tenho curso intermediário de excel e sei fazer
+            trabalhos em formato ABNT.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/imagem3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Hobbies</h5>
+          <p>Apesar de cursar informática eu sou muito de humanas e gosto muito de ler, romance, fantasia, averntura.
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <div>
+      <div class="row">
+        <div class="col-md-4 borda_foto">
+          <img src="img/eu.jpg">
+        </div>
+        <div class="col-md-8">
+          <h1>Sobre mim</h1>
+          <p>
+            Meu nome é Julia Garcia Mota eu tenho 16 anos, moro em Paranapiacaba e sou aluna na Etec Professora Maria
+            cristina Medeiros onde curso informática para internet, curso informática mas também gosto muito da área de
+            humanas.
+          </p>
+          <p>
+            Apesar de querer me formar em áreas de humanas que não tem muito a ver com informática, eu decidi fazer o
+            curso porque é a área que mais falta funcionário hoje em dia e por isso contrata muito e informática é uma
+            coisa que se usa para tudo, sei que precisarei muito no futuro.
+          </p>
+          <p>
+            Mas agora me aprofundando mais nas aulas de informática acho que é muito interessante, principalmente a
+            parte do Java script.
+          </p>
+        </div>
+          <div class="row">
+            <div >
+              <img class="imgsobre" src="img/pasta.png">
+              <h4> Interesses </h4>
+              <p>
+                Pretendo cursar Direito ou Nutrição na faculdade, gostaria de trabalhar na área de informática ou
+                administrativa.
+              </p>
+            </div>
+            <div >
+              <img class="imgsobre" src="img/livro.png">
+              <h4> Habilidades </h4>
+              <p>
+                Atualmente cusro inglês atrevés de entidade sem fins lucrativos, falo inglês básico, tenho conhecimento
+                básico em excel e word, mexo com HTML e CSS, sei fazer trabalhos em formato ABNT e sou comunicativa.
+              </p>
+            </div>
+            <div >
+              <img class="imgsobre" src="img/parque.png">
+              <h4> Hobbies </h4>
+              <p>
+                Gosto muito de ler, escrever, escutar música e assistir séries, gosto muito de falar de qualquer coisa que
+                envolva isso.
+              </p>
+            </div>
+            <div >
+              <img class="imgsobre" src="img/codificacao.png">
+              <h4> trabalhos </h4>
+              <ul>
+                <li>Site feito no primeiro semestre do 1º ano de informática:</li>
+                <a href="https://juliax-15.github.io/SiteDaJuliaPrimeiroTeste/">https://juliax-15.github.io/SiteDaJuliaPrimeiroTeste/</a>
+                <li>Livro Digital feito no segundo semestre do 1º ano de informática:</li>
+                <a href="https://julia1dudax.github.io/Contos/">https://julia1dudax.github.io/Contos/</a>
+                <li>Calculadora feita com Java Script:</li>
+                <a href="https://juliax-15.github.io/Calculadora/">https://juliax-15.github.io/Calculadora/</a>
+                <li>Calculo de IMC feio com Java Script:</li>
+                <a href="https://juliax-15.github.io/JavaScript_imc/">https://juliax-15.github.io/JavaScript_imc/</a>
+              </ul>
+            </div>
+          <h1>Contato</h1>
+        <div class="row">
+          <div class="col-md-3 text-center titulo">
+              <h4>Email</h4>
+              <p>motajuliagarcia@gmail.com</p>
+              <p>juliagarciamota1503@gmail.com</p>
+            </div>
+           
+            <div class="col-md-3 text-center titulo">
+              <h4>Telefone</h4>
+              <p>(11) 4439-0653</p>
+            </div>
+            <div class="col-md-3 text-center titulo">
+             <h4>Celular</h4>
+             <p>(11) 97471-8734</p>
+            </div>
+            <div class="col-md-3 text-center titulo">
+              <h4>Endereço</h4>
+              <p>Avenida Alfredo Maia Nº 490, Paranapiacaba, Santo André, SP</p>
+             </div>
           </div>
-      </div>
-    </nav>
-    <br>
-    <br>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/imagem1.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Sou estudante de informática</h5>
-        <p>Meu nome é Julia Garcia Mota tenho 16 anos e sou aluna da Etec MCM.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img/Imagem2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Habilidades</h5>
-        <p>Estou cursando Inglês e atualmente falo inglês básico, tenho curso intermediário de excel e sei fazer trabalhos em formato ABNT.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img/imagem3.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5 >Hobbies</h5>
-        <p>Apesar de cursar informática eu sou muito de humanas e gosto muito de ler, romance, fantasia, averntura.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
- <div class="sessao">
-    <h1>Sobre mim</h1>
-    <p>
-      Meu nome é Julia Garcia Mota eu tenho 16 anos, moro em Paranapiacaba e sou aluna na Etec Professora Maria cristina Medeiros onde curso informática para internet, curso informática mas também gosto muito da área de humanas.
-    </p>
- </div>
- <div>
-   <h3> Interesses </h3>
-     <p>
-       Gosto muito de ler e escrever, pretendo cursar Direito ou Nutrição na faculdade, gostaria de trablahr na área de informática ou administrativa.  
-     </p>
- </div>
- <div>
-   <h3> Habilidades </h3>
-     <p>
-       Atualmente cusro inglês atrevés de entidade sem fins lucrativos, falo inglês básico, tenho conhecimento básico em excel e word, mexo com HTML e CSS e  sei fazer trabalhos em formato ABNT.
-     </p>
-</div>
-    <!-- Optional JavaScript; choose one of the two! -->
+        </div>
+      </div> <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  </body>
+   
+</body>
+
 </html>

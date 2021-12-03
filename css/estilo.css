@@ -5,3 +5,18 @@
 .gradiente{
 	background-image: linear-gradient (to right, white)
 }
+.imgsobre{
+width: 50px;
+}
+
+.imgsobre:hover{
+	transform: rotate(360deg);
+	transition: 2s;
+	}
+
+	.rodapé{
+		position: 
+		  bottom: 0;
+		right: 0;
+		left: 0;
+	  }
